@@ -4,6 +4,7 @@ from .categories_seeder import seed_categories
 from .products_seeder import seed_products
 from .discounts_seeder import seed_discounts
 from .shops_seeder import seed_shops
+from .stocks_seeder import seed_stocks
 
 __all__ = [
     'seed_suppliers',
@@ -11,5 +12,6 @@ __all__ = [
     'seed_categories',
     'seed_products',
     'seed_discounts',
-    'seed_shops'
+    'seed_shops',
+    'seed_stocks'
 ]
