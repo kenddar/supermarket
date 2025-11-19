@@ -1,7 +1,7 @@
 from config import get_engine
 from seeders import (seed_suppliers, seed_customers, seed_categories, seed_products,
                      seed_discounts, seed_shops, seed_stocks, seed_deliveries, seed_transfers,
-                     seed_delivery_items)
+                     seed_delivery_items, seed_transfer_items)
 
 
 def main():
@@ -16,7 +16,8 @@ def main():
     #seed_stocks(engine, count=20)
     #seed_deliveries(engine, count=10000)
     #seed_transfers(engine, count=10000)
-    seed_delivery_items(engine)
+    #seed_delivery_items(engine)
+    seed_transfer_items(engine)
 
 
 if __name__ == "__main__":
