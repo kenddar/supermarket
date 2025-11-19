@@ -7,6 +7,7 @@ from .shops_seeder import seed_shops
 from .stocks_seeder import seed_stocks
 from .deliveries_seeder import seed_deliveries
 from .transfers_seeder import seed_transfers
+from .delivery_items_seeder import seed_delivery_items
 
 __all__ = [
     'seed_suppliers',
@@ -17,5 +18,6 @@ __all__ = [
     'seed_shops',
     'seed_stocks',
     'seed_deliveries',
-    'seed_transfers'
+    'seed_transfers',
+    'seed_delivery_items'
 ]
