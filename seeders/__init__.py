@@ -10,6 +10,8 @@ from .transfers_seeder import seed_transfers
 from .delivery_items_seeder import seed_delivery_items
 from .transfer_items_seeder import seed_transfer_items
 from .employees_seeder import seed_employees
+from .employee_workplaces import seed_employee_workplaces
+
 
 __all__ = [
     'seed_suppliers',
@@ -23,5 +25,6 @@ __all__ = [
     'seed_transfers',
     'seed_delivery_items',
     'seed_transfer_items',
-    'seed_employees'
+    'seed_employees',
+    'seed_employee_workplaces'
 ]
