@@ -35,7 +35,7 @@ def seed_delivery_items(engine):
         selected_products = random.sample(products, num_of_items)
 
         for product_id, category in selected_products:
-            quantity = random.randint(10, 25)
+            quantity = random.randint(10, 500)
 
             params = products_data.CATEGORY_PARAMS.get(category, {'price': (50, 500), 'expiry': (30, 180)})
             price_range = params['price']
